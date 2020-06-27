@@ -1,0 +1,18 @@
+Begin 
+ Connect the robot with bluetooth beacon device.
+ If the person want to enters the mall
+  Take a device that contains the application of the bluetooth beacon device 
+  Turn on the bluetooth in their devices
+  Enters the mall
+  The robot begins to detect the mac addresses
+  The robot will detect the mac addresses with an accuracy of detecting up to 10 cm
+  If more than or equal to 4 mac addresses close to each other within area that equal to 1 meter
+   The robot moves to the location of these mac addresses
+   The robot sends notification to the mac addresses (by said please keep away from each other)
+  Else if more than or equal to 4 mac addresses close to each other within area that less than or equal to half meter
+   The robot moves to the location of these mac addresses
+   The robot sends another notification to the mac addresses (by said please keep away from each other with louder voice) 
+ Else if the less than 4 mac addresses close to each other or the mac addresses keep away from each other 
+   The robot stops sending notifications 
+   The robot moves to another location in the mall
+END
